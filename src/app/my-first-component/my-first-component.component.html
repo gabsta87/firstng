@@ -1,0 +1,10 @@
+<p>my-first-component works!</p>
+
+<p>{{inputValue}}</p>
+
+<button (click)="emitEvent()"> emit event</button>
+
+<input type="file" (change)="raiseEvent($event)"/>
+
+<img *ngIf="myImgUrl" [src]="myImgUrl" (click)="startDownload()"/>
+
